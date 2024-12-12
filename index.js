@@ -1,9 +1,14 @@
 class SortedList {
   constructor() {
-    this.add
+    this.items = [];
+    this.length = 0;
   }
 
-  add(item) {}
+  add(item) {
+    this.items.push(item);
+    this.items.sort((a,b) => a - b) // a - b: Ascending order / b - a: Descending order.
+    this.length = this.items.length;  
+  }
 
   get(pos) {}
 
@@ -15,3 +20,5 @@ class SortedList {
 
   avg() {}
 }
+
+
