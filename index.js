@@ -1,5 +1,7 @@
 class SortedList {
-  constructor() {}
+  constructor() {
+    this.add
+  }
 
   add(item) {}
 
@@ -13,5 +15,3 @@ class SortedList {
 
   avg() {}
 }
-
-module.exports = SortedList;
